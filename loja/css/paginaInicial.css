@@ -1,0 +1,64 @@
+@font-face{
+
+	font-family: 'OpenSans';
+	src:url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+
+}
+
+@font-face{
+
+	font-family: 'OpenSans-light';
+	src:url("../fonts/Open_Sans/OpenSans-light.ttf");
+	font-size: 1em;
+
+}
+
+header {
+
+	position: relative;
+    width: 100%;
+    background-color: rgba(7, 66, 191, .5 );
+    margin-top: -24px;
+    height: 101px;
+    z-index: 2;
+}
+i#logotipo{
+    color: #efefefb8;
+    font-size: 76px;
+    position: relative;
+    top: -126px;
+    margin-left: 347px;
+}
+}
+.pull-right {
+    float: right;
+}
+nav#search{
+	top: -29px;
+    margin-top: -75px;
+    position: relative;
+}
+header h1 {
+
+    font-family: 'OpenSans';
+    font-size: 63px;
+    color: #cad4ea;
+    margin-left: 425px
+} 
+header input
+{    
+	border: none;
+    background-color: rgba(7, 66, 191, .4);
+    height: 23px;
+    width: 430px;
+}
+
+
+header input-group{
+	margin-top: -44;
+}
+body 
+{
+	background-color:#D1DFFD;
+}
