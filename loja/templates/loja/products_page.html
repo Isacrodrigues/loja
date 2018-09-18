@@ -6,8 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>loja online</title>
-		<link rel="stylesheet" type="text/css" href="{% static 'css/paginaInicial.css' %}">
-		<link rel="stylesheet" type="text/css" href='css/paginaproduto.css'>		
+		<link rel="stylesheet" type="text/css" href="{% static 'css/paginaProduto.css' %}">
+		<link rel="stylesheet" type="text/css" href='css/paginaProduto.css'>		
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel='stylesheet' type="text/css" href='lib/bootstrap/css/bootstrap.min.css'>
@@ -25,10 +25,10 @@
 		</header>
 		<section>
 			<div class=container>
-				<h2>boné vermelho</h2>
+				<h2>{{produto.nome}}</h2>
 				<img src="img/bonevermelho.jpg">
-				<p id=descricao >bone vermelho tamanho unico</p>
-				 <H3 type=text>quantidade:3</H3></h3>
+				<p id=descricao >{{Produto.descricao}}</p>
+				 <H3 type=text>quantidade:{{Produto.estoque}}</H3></h3>
 				<button type=button class="btn-waring"><a href=""></a><p>comprar <i class="fas fa-dollar-sign"></i><p></button>
 			</div>
 		</section>

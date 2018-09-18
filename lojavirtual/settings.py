@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #'django.responsive.middleware.ResponsiveMiddleware'
+  
 ]
 
 ROOT_URLCONF = 'lojavirtual.urls'
