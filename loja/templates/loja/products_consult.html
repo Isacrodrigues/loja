@@ -19,17 +19,17 @@
 				<h1>Sua loja virtual</h1>
 				<a href="http://127.0.0.1:8000/"><i class="fas fa-shopping-bag "id=logotipo></i></a>
 				<nav id="search" class =search>
-				<input type="search" placeholder="pesquisar produtos...">
+				<input type="search" placeholder="pesquisar produtos..." name=q required >
 				<button type="button"><i id="search" class="fa fa-search"></i></button>
 			</div><!--container-->
 		</header>
-		{% for Produto.object() in Produtos  %}
+		{% for Produto in Produtos  %}
 			<div class=container>				
 				<div class=produto ><a href=""></a>
 	    			<h2>{{ Produto.nome }}</h2>
 	    			<img src="">
 					<p>preço: R${{ Produto.preco }}</p>
-				    <p>{{ Produto.decricao|linebreaksbr }}</p>
+				    <p>{{ Produto.decricao }}</p>
 			    </div>
 			</div>
 		{% endfor %}	
