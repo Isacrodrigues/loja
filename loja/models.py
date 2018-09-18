@@ -13,6 +13,31 @@ class Produto(models.Model):
 
    
 
+   def __str__(self):
+      return self.descricao
+
+   def __int__(self):
+      return self.estoque
+
+   def __str__(self):
+      return self.tamanho
+
+   def __str__(self):
+      return self.cor
+
+   def __str__(self):
+      return self.nome
+
+   def __int__(self):
+      return self.preco
+
+   def compra(self):
+      if Produto.estoque > 0:
+         self.Produto.estoque = self.Produto.estoque -1, 
+      self.save()
+
+   
+
 
 
 

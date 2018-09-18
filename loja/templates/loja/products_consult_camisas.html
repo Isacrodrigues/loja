@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 {% load staticfiles %}
-{% load static %}
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -27,14 +26,24 @@
 		<div class="content container">			
 			<DIV CLASS="row">
 				<div class=col-md-8>
-					{% for produto.ocjects.all() in produtos %}	
-				        <div class=produto >
-						    <h2>{{ Produto.nome }}<a href=""></a></h2>
-						    <img src="">
-							<p>preço: R${{ Produto.preco }}</p>
-							<p>{{ Produto.decricao }}</p>
-						</div>
-					{% endfor %}	
+					<div class=produto >
+					    <h2>camisa verde<a href=""></a></h2>
+					    <img src="{% static 'img/camisa verde.jpg' %}">
+						<p>preço: R$45,99</p>
+						<p>camisa de algodão</p>
+					</div>
+					<div class=produto >
+					    <h2>camisa vermelha<a href=""></a></h2>
+					    <img src="{% static 'img/camisa vermelha.jpg' %}">
+						<p>preço: R$45,99</p>
+						<p>camisa de algodão confortável</p>
+					</div>
+					<div class=produto >
+					    <h2>camisa rosa<a href=""></a></h2>
+					    <img src="{% static 'img/camisa rosa.jpg' %}">
+						<p>preço: R$45,99</p>
+						<p>camisa de algodão confortável</p>
+					</div>
 				</div>	
 		    </DIV>
 	    </div>
