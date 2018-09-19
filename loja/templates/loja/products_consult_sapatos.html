@@ -7,17 +7,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>loja online</title>
 		<link rel="stylesheet" type="text/css" href="{% static 'css/paginaConsulta.css' %}">
-		<link rel="stylesheet" type="text/css" href='css/paginaConsulta.css'>		
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<link rel='stylesheet' type="text/css" href='lib/bootstrap/css/bootstrap.min.css'>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!--link rel="stylesheet" type="text/css" href='css/paginaConsulta.css'>
+		<link rel='stylesheet' type="text/css" href='lib/bootstrap/css/bootstrap.min.css'-->
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<h1>Sua loja virtual</h1>
-				<a href="http://127.0.0.1:8000/"><i class="fas fa-shopping-bag "id=logotipo></i></a>
+				<a href=" "><i class="fas fa-shopping-bag "id=logotipo></i></a>
 				<nav id="search" class =search>
 				<input type="search" placeholder="pesquisar produtos..." name=q required >
 				<button type="button"><i id="search" class="fa fa-search"></i></button>
@@ -27,20 +27,20 @@
 			<DIV CLASS="row">
 				<div class=col-md-8>
 					<div class=produto >
-					    <h2>sapato bege<a href=""></a></h2>
-					    <img src="{% static 'img/sapato bege.jpg' %}">
+					 <a href="paginas_produtos/products_page_sapato_bege.html"><h2>sapato bege</h2>
+					    <img src="{% static 'img/sapato bege.jpg' %}"></a>
 						<p>preço: R$59,99</p>
 						<p>sapato de salto alto</p>
 					</div>
 					<div class=produto >
-					    <h2>sapato marrom <a href=""></a></h2>
-					    <img src="{% static 'img/sapato marrom.jpg' %}">
+					    <a href="paginas_produtos/products_page_sapato_marrom.html"><h2>sapato marrom</h2>
+					    <img src="{% static 'img/sapato marrom.jpg' %}"></a>
 						<p>preço: R$59,99</p>
 						<p>camisa de camurça confortável</p>
 					</div>
 					<div class=produto >
-					    <h2>tenis preto<a href=""></a></h2>
-					    <img src="{% static 'img/tenis preto.jpg' %}">
+					 <a href="paginas_produtos/products_page__tenis_preto.html"><h2>tenis preto</h2>
+					    <img src="{% static 'img/tenis preto.jpg' %}"></a>
 						<p>preço: R$59,99</p>
 						<p>tênis de corrida</p>
 					</div>
@@ -50,6 +50,6 @@
 	</body>
 	<script type="text/javascript" src="{% static 'lib/jquery/jquery.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}"></script>
-	<script type="text/javascript" src='lib/jquery/jquery.min.js'></script>
-	<script type="text/javascript" src='lib/bootstrap/js/bootstrap.min.js'></script>
+	<!--script type="text/javascript" src='lib/jquery/jquery.min.js'></script>
+	<script type="text/javascript" src='lib/bootstrap/js/bootstrap.min.js'></script-->
 </html>

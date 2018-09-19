@@ -7,17 +7,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>loja online</title>
 		<link rel="stylesheet" type="text/css" href="{% static 'css/paginaConsulta.css' %}">
-		<link rel="stylesheet" type="text/css" href='css/paginaConsulta.css'>		
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<link rel='stylesheet' type="text/css" href='lib/bootstrap/css/bootstrap.min.css'>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="
+		sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!--link rel='stylesheet' type="text/css" href='lib/bootstrap/css/bootstrap.min.css'>
+		<link rel="stylesheet" type="text/css" href='css/paginaConsulta.css'-->	
+		
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<h1>Sua loja virtual</h1>
-				<a href="http://127.0.0.1:8000/"><i class="fas fa-shopping-bag "id=logotipo></i></a>
+				<a href=" "><i class="fas fa-shopping-bag "id=logotipo></i></a>
 				<nav id="search" class =search>
 				<input type="search" placeholder="pesquisar produtos..." name=q required >
 				<button type="button"><i id="search" class="fa fa-search"></i></button>
@@ -27,20 +29,20 @@
 			<DIV CLASS="row">
 				<div class=col-md-8>
 					<div class=produto >
-					    <h2>camisa verde<a href=""></a></h2>
-					    <img src="{% static 'img/camisa verde.jpg' %}">
+					    <a href="paginas_produtos/products_page_camisa_verde.html"><h2>camisa verde</h2>
+					    <img src="{% static 'img/camisa verde.jpg' %}"></a>
 						<p>preço: R$45,99</p>
 						<p>camisa de algodão</p>
 					</div>
 					<div class=produto >
-					    <h2>camisa vermelha<a href=""></a></h2>
-					    <img src="{% static 'img/camisa vermelha.jpg' %}">
+					    <a href="paginas_produtos/products_page_camisa_vermelha.html"><h2>camisa vermelha</h2>
+					    <img src="{% static 'img/camisa vermelha.jpg' %}"></a>
 						<p>preço: R$45,99</p>
 						<p>camisa de algodão confortável</p>
 					</div>
 					<div class=produto >
-					    <h2>camisa rosa<a href=""></a></h2>
-					    <img src="{% static 'img/camisa rosa.jpg' %}">
+					    <a href="paginas_produtos/products_page_camisa_rosa.html"><h2>camisa rosa</h2>
+					    <img src="{% static 'img/camisa rosa.jpg' %}"></a>
 						<p>preço: R$45,99</p>
 						<p>camisa de algodão confortável</p>
 					</div>
@@ -50,6 +52,6 @@
 	</body>
 	<script type="text/javascript" src="{% static 'lib/jquery/jquery.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}"></script>
-	<script type="text/javascript" src='lib/jquery/jquery.min.js'></script>
-	<script type="text/javascript" src='lib/bootstrap/js/bootstrap.min.js'></script>
+	<!--script type="text/javascript" src='lib/jquery/jquery.min.js'></script>
+	<script type="text/javascript" src='lib/bootstrap/js/bootstrap.min.js'></script-->
 </html>

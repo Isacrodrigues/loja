@@ -74,11 +74,10 @@ nav#search{
     }
     i#logotipo {
         position: absolute;
-        top: 19px;
-        font-size: 29px;
+        top: 25px;
+        font-size: 24px;
         color: #fff;
-    }
-
+}
 }
 @media only screen and (min-width: 425px) 
 {
